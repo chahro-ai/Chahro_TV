@@ -121,6 +121,7 @@ body.sidebar-open .page-content { margin-right: var(--sidebar-width); }
 }
 .cta-button:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(10, 132, 255, 0.4); }
 .cta-button.tv-version { background: var(--purple-tv); box-shadow: 0 8px 25px rgba(191, 90, 242, 0.25); }
+.cta-button.xpola-version { background: var(--success-green); box-shadow: 0 8px 25px rgba(52, 199, 89, 0.25); }
 .cta-button.secondary { background: var(--secondary-bg); border: 1px solid var(--border-color); color: var(--text-primary); box-shadow: none; }
 .cta-button.secondary:hover { background: rgba(255,255,255,0.1); }
 
@@ -134,7 +135,7 @@ body.sidebar-open .page-content { margin-right: var(--sidebar-width); }
 /* --- Hero Image (Logo) Styling - SMALLER --- */
 .hero-mockup img { 
     width: 100%;
-    max-width: 260px; /* تم تصغير الحجم هنا */
+    max-width: 260px;
     margin-top: 40px; 
     filter: drop-shadow(0 30px 50px rgba(0,0,0,.5)); 
     border-radius: 20px; 
